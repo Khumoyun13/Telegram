@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="">
+    <button type="button" class="toggle-button" onclick="toggleButton">
+        <i class="fas fa-moon moon"></i>
+        <div class="toggle">
+            <p class="toggle-text">Dark mode</p>
+            <p class="toggle-status">Turned off</p>
+        </div>
+    </button>
+    <div class="container">
+        <header class="">
+            <div class="profile">
+                <i class="fas fa-arrow-left back-icon"></i>
+                <img src="img/profile-img.jpg" alt="img" class="profile-img">
+                <div class="profile-info">
+                    <p class="profile-name">☪ 𝐇𝐮𝐦𝐨𝐲𝐮𝐧</p>
+                    <p class="profile-status">online</p>
+                </div>
+                <i class="fas fa-search search-icon"></i>
+                <i class="fas fa-ellipsis-v menu-bar"></i>
+            </div>
+        </header>
+        <main class="">
+            <ul class="main-ul">
+                <li>
+                    <p class="main-p received">Salom</p>
+                </li>
+                <li>
+                    <p class="main-p sent">Salom</p>
+                </li>
+            </ul>
+        </main>
+        <footer class="">
+            <form class="friend-form">
+                <label>
+                    <i class="far fa-smile smile-icon"></i>
+                    <textarea placeholder="Me" class=" friend-textarea"></textarea>
+                    <i class="fas fa-paperclip paperclip-icon"></i>
+                    <i class="fas fa-microphone voice-icon"></i>
+                    <button type="submit"><i class="fas fa-paper-plane send-icon"></i></button>
+                </label>
+            </form>
+            <form class="me-form">
+                <label>
+                    <i class="far fa-smile smile-icon"></i>
+                    <textarea placeholder="Friend" class=" me-textarea"></textarea>
+                    <i class="fas fa-paperclip paperclip-icon"></i>
+                    <i class="fas fa-microphone voice-icon"></i>
+                    <button type="submit"><i class="fas fa-paper-plane receive-icon"></i></button>
+                </label>
+            </form>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
